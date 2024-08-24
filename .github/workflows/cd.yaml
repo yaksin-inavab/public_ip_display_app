@@ -34,6 +34,7 @@ jobs:
       uses: azure/setup-helm@v1
       with:
         version: '3.9.0'  # Specify the desired Helm version
+      id: install
 
     - name: Check Helm status
       run: |
