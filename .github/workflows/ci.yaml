@@ -36,5 +36,5 @@ jobs:
     - name: Push Docker image
       run: |
         echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
-        docker tag my-flask-app my-dockerhub-username/my-flask-app:latest
-        docker push my-dockerhub-username/my-flask-app:latest  # Push the Docker image to Docker Hub
+        docker tag my-flask-app yaksininavab/my-flask-app:latest
+        docker push yaksininavab/my-flask-app:latest
