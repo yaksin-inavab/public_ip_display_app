@@ -34,4 +34,3 @@ jobs:
     - name: Deploy to EKS
       run: |
         helm upgrade --install my-flask-app ./my-flask-app-0.1.0.tgz
-2
