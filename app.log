@@ -1,0 +1,13 @@
+2024-08-24 11:47:36,257 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2024-08-24 11:47:36,257 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-24 11:47:40,611 - INFO - Request from 192.168.1.10 to /
+2024-08-24 11:47:41,015 - INFO - 192.168.1.10 - - [24/Aug/2024 11:47:41] "GET / HTTP/1.1" 200 -
+2024-08-24 11:52:20,275 - INFO - Request from 127.0.0.1 to /echo
+2024-08-24 11:52:20,277 - INFO - Request from 127.0.0.1 to /echo
+2024-08-24 11:52:20,278 - INFO - Request from 127.0.0.1 to /
+2024-08-24 11:52:20,670 - INFO - Request from 127.0.0.1 to /invalid
+2024-08-24 11:52:20,670 - INFO - Request from 127.0.0.1 to /
+2024-08-24 11:52:20,943 - INFO - Request from 127.0.0.1 to /status
