@@ -38,7 +38,7 @@ jobs:
 
     - name: Add helm repo
       run: |
-        helm repo add public-ip-repo https://yaksin-inavab.github.io/public_ip_app_helm_chart/charts/public-ip-app-helmchart/
+        helm repo add public-ip-repo https://yaksin-inavab.github.io/public_ip_app_helm_chart/charts/
 
 
     - name: Check Helm status
