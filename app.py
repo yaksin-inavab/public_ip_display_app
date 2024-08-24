@@ -56,3 +56,4 @@ if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
     debug = bool(os.getenv('DEBUG', False))
     app.run(host='0.0.0.0', port=port, debug=debug)
+    print("NAMMA JEICHITOM MAARA")
