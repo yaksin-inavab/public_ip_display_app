@@ -35,11 +35,20 @@ jobs:
       with:
         version: '3.9.0'  # Specify the desired Helm version
       id: install
+    -name: Add helm repo
+      run: |
+        helm repo add public-ip-repo https://yaksin-inavab.github.io/public_ip_app_helm_chart/
+
 
     - name: Check Helm status
       run: |
         helm version
         helm repo list
+
+    #- name: Package helm 
+    #  run: |
+    #    helm package my-flask-app 
+
 
     - name: Deploy to EKS
       run: |
