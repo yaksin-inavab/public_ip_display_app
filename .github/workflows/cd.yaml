@@ -35,7 +35,8 @@ jobs:
       with:
         version: '3.9.0'  # Specify the desired Helm version
       id: install
-    -name: Add helm repo
+      
+    - name: Add helm repo
       run: |
         helm repo add public-ip-repo https://yaksin-inavab.github.io/public_ip_app_helm_chart/
 
